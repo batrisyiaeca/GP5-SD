@@ -5,6 +5,8 @@
 <body>
  <?php include __DIR__.'/sidebar.php';?>
 	<link rel="stylesheet" type="text/css" href="css/admin.css">
+      echo "<body style='background-color:#FFAD6A'>";
+			<br><br>
 			<h2>Manage Admin</h2>
 			<!--add admin-->
 			<br/>
@@ -15,9 +17,36 @@
 					echo $_SESSION['add'];//Display message
 					unset($_SESSION['add']);//Remove message
 				}
+
+			if(isset($_SESSION['delete']))
+				{
+					echo $_SESSION['delete'];
+					unset ($_SESSION['delete']);
+				}
+
+			if(isset($_SESSION['update']))
+				{
+					echo $_SESSION['update'];
+					unset ($_SESSION['update']);
+				}
+			if(isset($_SESSION['user-not-found']))
+				{
+					echo $_SESSION['user-not-found'];
+					unset ($_SESSION['user-not-found']);
+				}
+			if(isset($_SESSION['pwd-not-match']))
+				{
+					echo $_SESSION['pwd-not-match'];
+					unset ($_SESSION['pwd-not-match']);
+				}
+			if(isset($_SESSION['pwd-not-match']))
+				{
+					echo $_SESSION['change-pwd'];
+					unset ($_SESSION['change-pwd']);
+				}
 			?>
 			<br><br>
-				<a href="add-admin.php" class="btn-add">Add Admin</a>
+			<a href="add-admin.php" class="btn-add">Add Admin</a>
 			<br/><br/>
 			<table class="tbl-full">
 				<tr>
@@ -60,8 +89,9 @@
 										<td><?php echo $adminName;?></td>
 										<td><?php echo $adminUid;?></td>
 										<td>
-											<a href=# class="btn-update">Update Admin</a>
-											<a href=# class="btn-delete">Delete Admin</a>
+											<a href="<?php echo SITEURL; ?>admin/update-password.php?id=<?php echo $adminId; ?>" class="btn-add">Change Password</a>
+											<a href="<?php echo SITEURL; ?>admin/update-admin.php?id=<?php echo $adminId; ?>" class="btn-update">Update Admin</a>
+											<a href="<?php echo SITEURL; ?>admin/delete-admin.php?id=<?php echo $adminId; ?>" class="btn-delete">Delete Admin</a>
 										</td>
 									</tr>
 

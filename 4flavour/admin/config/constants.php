@@ -1,4 +1,6 @@
 <?php
+
+
     //Create Constants to Store Non Repeating Values
     define('SITEURL','http://localhost/4flavour/');
     define('LOCALHOST','localhost');

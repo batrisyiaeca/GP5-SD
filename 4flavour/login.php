@@ -3,8 +3,8 @@
 <html lang="en" dir="ltr">
 		<body>
 
-			<?php include 'navbar.php' ?>
-	  <link rel="stylesheet" type="text/css" href="css/style.css">
+<?php include('partials-front/navbar.php');?>
+	  <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 		<img class="bg-image" src="images/user.png" alt="4flavour"></div>
 		<section class="signup-form">

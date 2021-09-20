@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fixed Sidebar Menu Html CSS</title>
+    <title>4Flavour Admin</title>
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
@@ -24,21 +24,21 @@
           </a>
         </li>
         <li>
-          <a href="#">
-            <i class="fas fa-concierge-bell"></i>
-            <span>Order</span>
-          </a>
-        </li>
-        <li>
-          <a href="#">
+          <a href="manage-category.php">
             <i class="fas fa-server"></i>
             <span>Category</span>
           </a>
         </li>
         <li>
+          <a href="manage-dessert.php">
+            <i class="fas fa-utensils"></i>
+            <span>Dessert</span>
+          </a>
+        </li>
+        <li>
           <a href="#">
-            <i class="fas fa-question-circle"></i>
-            <span>About</span>
+            <i class="fas fa-concierge-bell"></i>
+            <span>Order</span>
           </a>
         </li>
         <li>

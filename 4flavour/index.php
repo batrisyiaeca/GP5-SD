@@ -3,9 +3,8 @@
 <html lang="en" dir="ltr">
 		<body>
 
-			<?php include 'navbar.php'
+			<?php include('partials-front/navbar.php');?>
 
-			?>
 
 
 			<div class="container">

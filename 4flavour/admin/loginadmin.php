@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-		<body>
+		<body style="background-color: #ffad6a">
 
 	  <link rel="stylesheet" type="text/css" href="css/form.css">
 

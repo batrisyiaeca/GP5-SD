@@ -4,10 +4,11 @@
 <html lang="en" dir="ltr">
 <body>
 
- <?php include __DIR__.'/sidebar.php';?>
-    <link rel="stylesheet" type="text/css" href="css/admin.css">
-    <h1>Add Admin</h1>
-    <br><br>
+  <?php include __DIR__.'/sidebar.php';?>
+     <link rel="stylesheet" type="text/css" href="css/admin.css">
+     echo "<body style='background-color:#FFAD6A'>";
+     <h1>Add Admin</h1>
+     <br><br>
     <?php
         if(isset($_SESSION['add']))
         {

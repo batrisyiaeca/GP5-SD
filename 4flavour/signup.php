@@ -3,7 +3,7 @@
 <html lang="en" dir="ltr">
 		<body>
 
-			<?php include 'navbar.php' ?>
+<?php include('partials-front/navbar.php');?>
 	  <link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<img class="bg-image" src="images/user.png" alt="4flavour"></div>
